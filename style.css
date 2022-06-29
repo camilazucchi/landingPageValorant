@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url("/imagens/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--preto);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: var(--preto);
+}
+
+.cabecalho-img {
+    height: 60px;
+}
+
+.cabecalho-nav {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-nav-item {
+    font-family: 'Poppins', sans-serif;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cabecalho-nav-item:hover {
+    color: var(--vermelho-claro);
+    text-decoration: underline;
+}
+
+.conteudo {
+    margin-bottom: 60px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -900px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: var(--branco);
+    margin-top: 80px;
+}
+
+.conteudo-principal-escrito-titulo:hover {
+    color: var(--preto);
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--branco);
+    margin-top: -40px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: var(--vermelho-claro);
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: var(--preto);
+    color: var(--branco);
+    text-decoration: underline;
+}
